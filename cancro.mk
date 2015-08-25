@@ -273,10 +273,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.qualcomm.sns.daemon=w \
     debug.qualcomm.sns.libsensor1=w
 
-#Doze Mode
-PRODUCT_PACKAGES += \
-    CancroDoze
-
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/atmel-maxtouch.kl:system/usr/keylayout/atmel-maxtouch.kl \
